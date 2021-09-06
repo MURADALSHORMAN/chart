@@ -1,0 +1,367 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.HeadCard {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  height: 150px;
+  position: relative;  
+  top: 59px;
+  position: relative;
+  left: 2%;
+  
+}
+
+.HeadCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.HeadCard h1{
+  float: left;
+  padding-left: 5px;
+  margin: auto;
+  position: relative;
+  right: 180px;
+  
+}
+
+
+
+/* ///////////////////////////////////////////// */
+
+.Repairs {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  height: 150px;
+  position: relative;  
+  top: 75px;
+  position: relative;
+  left: 2%;
+  
+}
+
+.Repairs:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.Repairs h1{
+  float: left;
+  padding-left: 5px;
+  margin: auto;
+  
+}
+/* /////////////////////////////////////////////////// */
+.HeadCard1 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  height: 150px;
+  position: relative;  
+  top: 50px;
+  position: absolute;
+  left: 33%;
+  top: 295px;
+}
+
+.HeadCard1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.HeadCard1 h1{
+  float: left;
+  padding-left: 5px;
+  margin: auto;
+  
+}
+
+/* /////////////////////////////////////////////////// */
+.HeadCard2 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  height: 150px;
+  position: relative;  
+  top: 50px;
+  position: absolute;
+  left: 33%;
+  top: 130px;
+}
+
+.HeadCard2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.HeadCard2 h1{
+  float: left;
+  padding-left: 5px;
+  margin: auto;
+}
+/* /////////////////////////////////////////////////// */
+.WelcomeCard {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 95%;
+  position: absolute;
+  left: 2%;
+  padding: 2px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.WelcomeCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+#root > div > div:nth-child(2) > div:nth-child(1) > div.WelcomeCard > h1{
+  float: left;
+  padding-left: 5px;
+  margin: auto;
+}
+/* /////////////////////////////////////////////////// */
+.TicketCard {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 61%;
+  position: relative;  
+  top: 100px;
+  left: 2%;
+  
+}
+
+.TicketCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.TicketCard h1{
+  float: left;
+  padding-left: 5px;
+  margin: auto;
+}
+/* /////////////////////////////////////////////////// */
+.COGSCard {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 61%;
+  position: relative;  
+  top: 100px;
+  left: 2%;
+  margin-top: 50px;
+  
+}
+
+.COGSCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.COGSCard h1{
+  float: left;
+  padding-left: 5px;
+  margin: auto;
+}
+/* /////////////////////////////////////////////////// */
+
+#root > div > div:nth-child(2) > div:nth-child(2) > div.TicketCard > table{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: rgb(187, 177, 230);}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+/* /////////////////////////////////////////////////// */
+.TargetCard {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  height: 350px;
+  position: relative;  
+  top: 100px;
+  margin-top: 50px;
+  float: right;
+  position: absolute;
+  top: 450px;
+  right: 3%;
+  
+}
+
+.TargetCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.TargetCard h1{
+  float: left;
+  padding-left: 5px;
+  margin: auto;
+}
+/* /////////////////////////////////////////////////// */
+.AboutUsCard {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  height: 350px;
+  position: relative;  
+  top: 100px;
+  margin-top: 50px;
+  float: right;
+  position: absolute;
+  top: 850px;
+  right: 3%;
+  
+}
+
+.AboutUsCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.AboutUsCard h1{
+  float: left;
+  padding-left: 5px;
+  margin: auto;
+}
+/* /////////////////////////////////////////////////// */
+.ProfileCard {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  height: 300px;
+  position: relative;  
+  top: 100px;
+  margin-top: 50px;
+  float: right;
+  position: absolute;
+  top: 100px;
+  right: 3%;
+  
+}
+
+.ProfileCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.ProfileCard h1{
+  float: left;
+  padding-left: 5px;
+  margin: auto;
+}
+
+#fname{
+  position: relative;
+  top: 150px;
+  right: 20px;
+  width: 350px;
+}
+#root > div > div:nth-child(2) > div:nth-child(1) > div.ProfileCard > h1{
+  position: relative;
+  top:150px;
+  right: 20px;
+  width: 350px;
+}
+
+
+hr{
+  margin-top: 3px;
+  width: 100%;
+  height: 1px;
+  
+}
+
+/* //////////////////////////////// */
+
+#root > div > div:nth-child(1){
+  background-color: rgb(28, 30, 39);
+  color: aliceblue;
+  height: 50px;
+  padding: 5px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+
+}
+#root > div > div:nth-child(1) > h1{
+  float: left;
+  position: relative;
+  bottom: 12px;
+  left: 30px;
+}
